@@ -1,8 +1,17 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const app = express();
+var now = new Date();
 
-app.get("/apiFacturacion", (req, res) => {
-    res.json({"users": ["user1", "user2", "user3"]})
+
+// const siat_api_url = '/solicitudCUFD'
+
+// const response = await fetch(siat_api_url);
+// const jsonSiat = await response.json()
+
+
+app.get("/api", (req, res) => {
+    res.json({"ControlCode": "12345"});
 })
+
 
 app.listen(5000, () => { console.log("Servidor iniciado en el puerto 5000")})
