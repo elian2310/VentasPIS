@@ -1,0 +1,72 @@
+:root {
+  background-color: #F2E5D9;
+}
+
+.Boton{
+  background: #BDECB6;
+  cursor: pointer;
+}
+
+/*Cosas para el producto*/
+.Producto {
+  padding: 10px;
+  margin: 20px;
+  margin-left: 500px;
+  border: 5px solid;
+  display: flex;
+  text-align: justify;
+  gap: 50px;
+  width: 700px;
+}
+
+.Letras{
+  margin-top: 30px;
+}
+
+.Letras-Derecha{
+  margin-top: 85px;
+  margin-left: 20px;
+}
+
+/*Cosas para la barra*/
+.Contenedor-Barra {
+  height: 100px;
+  background: #D1B7A1;
+}
+
+.Barra {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Barra-Izquierda {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.Barra-Derecha {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Barra-Centro {
+  flex: 1;
+  text-align: center;
+}
+
+.Inicio {
+  cursor: pointer;
+}
+
+.Busqueda{
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  padding: 5px;
+}
